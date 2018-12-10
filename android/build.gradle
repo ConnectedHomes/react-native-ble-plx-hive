@@ -1,9 +1,11 @@
 buildscript {
     repositories {
+        maven { url 'https://maven.google.com' }
+        google()
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.0'
+        classpath 'com.android.tools.build:gradle:2.3.0'
         classpath 'org.codehaus.groovy:groovy-android-gradle-plugin:1.1.0'
     }
 }
